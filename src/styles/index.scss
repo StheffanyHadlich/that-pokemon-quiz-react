@@ -36,6 +36,10 @@ code {
     background-color: white;
     color: black;
 
+    &__Image {
+      filter: brightness(0);
+    }
+
     &__Question {
       background-color: rgb(130, 130, 238);
     }

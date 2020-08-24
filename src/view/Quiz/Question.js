@@ -32,6 +32,7 @@ class Question extends Component {
       <form className="Container Game">
         <div className="Game__Question">
           <img
+            className="Game__Image"
             src={question.rightAnswer.img}
             alt="question"
           />
